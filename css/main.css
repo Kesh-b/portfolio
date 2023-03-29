@@ -216,7 +216,6 @@ main #about {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #about #aboutHeader {
@@ -235,7 +234,6 @@ main #about {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 #about h2 {
@@ -315,7 +313,6 @@ figure {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -331,7 +328,6 @@ figure {
     width: 50%;
     font-size: 1.5em;
     margin: 0 100px;
-
 }
 
 #skills .iconList ul li {
@@ -385,12 +381,10 @@ figure {
     justify-content: center;
     align-items: center;
     width: 100%;
-    
 }
 
 #projects .wrapper {
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -580,27 +574,6 @@ footer {
    ========================================================================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*******************************tablet styles*****************************/
 
 @media only screen and (min-width:768px) {
@@ -657,7 +630,6 @@ footer {
 #projects .individualProject {
     display: flex;
     flex-direction: row;
-    
 }
 
 #projects figure {
@@ -671,7 +643,6 @@ footer {
     align-items: center;
     flex-direction: column;
     width: 50%;
-    
 }
 
 #projects h3 {
@@ -680,50 +651,9 @@ footer {
 
 /****************** footer section  *******************************/
 
-/* keeping in case chagne mind but no chagnes without from mobile 
+/* no changes */
 
-
-footer .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
-
-.wrapper #contact {
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-#contact h2 {
-    width: 50%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-#contact a {
-    width: 50%;
-    margin: 25px 0;
-    color: #472d30;
-}
-
-#contact p {
-    text-align: center;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-#contact .socialIcons {
-    width: 30%;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-} */
 
 
 /*******************************Desktop styles******************************/
@@ -753,11 +683,6 @@ footer .wrapper {
     margin: 25px 0 0 0;
 }
 
-#about span {
-    margin: 30px;
-    /* outline: darkred solid 1px;  */
-}
-
 #about figure {
     align-items: center;
     margin: 0;
@@ -767,13 +692,11 @@ footer .wrapper {
 #about #aboutP {
     width: 50%;
     margin: 0 50px 50px 75px;
-    
 }
 
 /****************** skills section  *******************************/
 
 #skills .wrapper {
-    
     width: 100%;
     padding-bottom: 50px;
     border-bottom: none;
@@ -784,7 +707,6 @@ footer .wrapper {
 /****************** projects section  *******************************/
 
 #projects .wrapper {
-    
     width: 100%;
     border-top: #000 1px solid;
 }
