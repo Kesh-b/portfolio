@@ -114,7 +114,6 @@ html {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    
 }
 
 body {
@@ -224,6 +223,7 @@ main #about {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 20px;
 }
 
 #about .wrapper {
@@ -274,8 +274,6 @@ figure {
 #about #selfPhoto {
     width: 100%;
     max-width: 250px;
-    /* width: 200px;
-    height: 230px; */
     border-radius: 100px;
 }
 
@@ -295,8 +293,8 @@ figure {
     width: 100%;
     flex-flow: row wrap;
     box-sizing: border-box;
-    /* max-width: 500px; */
     border-bottom: #000 1px solid;
+    padding: 0 20px;
 }
 
 #skills h2 {
@@ -305,7 +303,6 @@ figure {
     text-decoration: underline;
     font-family: 'Arvo', serif;
     margin: 0;
-    padding: 30px 0;
     width: 100%;
 }
 
@@ -314,6 +311,7 @@ figure {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 
