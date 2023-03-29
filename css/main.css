@@ -114,6 +114,7 @@ html {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    
 }
 
 body {
@@ -127,7 +128,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    /* outline: darkred solid 1px; */
+    scroll-behavior: smooth;
 }
 
 ul {
