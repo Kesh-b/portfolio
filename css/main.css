@@ -215,7 +215,8 @@ main #about {
 
 #about .wrapper {
     width: 100%;
-    border-bottom: #000 1px solid;
+    margin-bottom: 100px;
+    /* border-bottom: #000 1px solid; */
 }
 
 #about #aboutHeader {
@@ -281,7 +282,7 @@ figure {
     width: 100%;
     flex-flow: row wrap;
     box-sizing: border-box;
-    border-bottom: #000 1px solid;
+    /* border-bottom: #000 1px solid; */
     padding: 0 20px;
 }
 
@@ -292,6 +293,7 @@ figure {
     font-family: 'Arvo', serif;
     margin: 0;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 
@@ -378,6 +380,7 @@ figure {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 80px 0;
 }
 
 
@@ -385,7 +388,7 @@ figure {
     font-size: 3.5em;
     font-family: 'Arvo', serif;
     text-decoration: underline;
-    margin: 50px 0 25px 0;
+    margin: 40px 0;
 }
 
 
