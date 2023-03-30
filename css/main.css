@@ -216,7 +216,6 @@ main #about {
 #about .wrapper {
     width: 100%;
     margin-bottom: 100px;
-    /* border-bottom: #000 1px solid; */
 }
 
 #about #aboutHeader {
@@ -282,7 +281,6 @@ figure {
     width: 100%;
     flex-flow: row wrap;
     box-sizing: border-box;
-    /* border-bottom: #000 1px solid; */
     padding: 0 20px;
 }
 
@@ -421,6 +419,8 @@ figure {
 
 .projectGrid .individualProject p {
     margin: 15px 0;
+    text-align: left;
+    padding: 20px;
 }
 
 #projects .responsive {
